@@ -1,0 +1,8 @@
+package-as: CustomBossAlerts
+
+ignore:
+  - .claude
+  - .github
+  - .gitignore
+  - CLAUDE.md
+  - guides

@@ -1,0 +1,33 @@
+## Interface: 120000
+## Title: CustomBossAlerts
+## Notes: Select boss abilities from the Encounter Journal and get custom alerts when they're cast. Requires BigWigs or DBM.
+## Author: Efymer
+## Version: 0.1.0
+## SavedVariables: CustomBossAlertsDB
+## IconTexture: Interface\Icons\Spell_Shadow_Charm
+## Category: Other
+## OptionalDeps: DBM-Core, BigWigs
+
+Libs\LibStub\LibStub.lua
+
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+
+Libs\LibDeflate\LibDeflate.lua
+Libs\LibSerialize\LibSerialize.lua
+
+Libs\LibEditMode\embed.xml
+
+Core.lua
+EncounterJournal.lua
+Detection.lua
+Alerts.lua
+Transmission.lua
+UIHelpers.lua
+Settings.lua
+Collections.lua
+DefaultCollections.lua
+Picker.lua
+IconBrowser.lua
+ImportExport.lua
+UI.lua
