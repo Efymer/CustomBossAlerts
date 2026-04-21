@@ -2,8 +2,6 @@ package-as: CustomBossAlerts
 
 enable-nolib-creation: no
 
-curse-project-id: 1520987
-
 ignore:
   - .claude
   - .github

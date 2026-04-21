@@ -7,6 +7,7 @@
 ## IconTexture: Interface\Icons\Spell_Shadow_Charm
 ## Category: Other
 ## OptionalDeps: DBM-Core, BigWigs
+## X-Curse-Project-ID: 1520987
 
 Libs\LibStub\LibStub.lua
 
