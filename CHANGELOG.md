@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.1
+
+- Update for World of Warcraft 12.0.5 — v1.0.1
+
 ## v0.1.0 — Initial Release
 
 ### Collections & Alerts
