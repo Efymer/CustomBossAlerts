@@ -406,7 +406,7 @@ function ns:ShowSidebarContextMenu(anchor, collectionID, spellID)
 			C_Timer.After(0, function()
 				if contextMenu:IsShown() then
 					contextMenu:SetScript("OnUpdate", function(self)
-						if not MouseIsOver(self) and IsMouseButtonDown("LeftButton") then
+						if not self:IsMouseOver() and IsMouseButtonDown("LeftButton") then
 							self:Hide()
 						end
 					end)

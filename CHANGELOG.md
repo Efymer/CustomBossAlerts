@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.0.2
+
+- Update for World of Warcraft 12.1.0 — v1.0.2
+- Fix an error when clicking outside a collection's right-click menu — v1.0.2
+
 ## v1.0.1
 
 - Update for World of Warcraft 12.0.5 — v1.0.1
