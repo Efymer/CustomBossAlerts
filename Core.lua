@@ -77,6 +77,9 @@ frame:SetScript("OnEvent", function(self, event, ...)
 		if ns.SeedVoidspireRaid then ns:SeedVoidspireRaid() end
 		if ns.SeedQuelDanasRaid then ns:SeedQuelDanasRaid() end
 		if ns.SeedDreamriftRaid then ns:SeedDreamriftRaid() end
+		if ns.SeedMPlusSeason2 then ns:SeedMPlusSeason2() end
+		if ns.SeedVenomousAbyssRaid then ns:SeedVenomousAbyssRaid() end
+		if ns.SeedTideboundGrottoRaid then ns:SeedTideboundGrottoRaid() end
 
 		ns:InitDetection()
 		ns:InitAlerts()
@@ -121,13 +124,18 @@ SlashCmdList["CUSTOMBOSSALERTS"] = function(msg)
 		db.voidspireRaidSeeded = nil
 		db.quelDanasRaidSeeded = nil
 		db.dreamriftRaidSeeded = nil
+		db.mplusSeason2Seeded = nil
+		db.venomousAbyssRaidSeeded = nil
+		db.tideboundGrottoRaidSeeded = nil
 		-- Remove old seeded collections
 		for id, coll in pairs(db.collections) do
 			local n = coll.name
 			if n == "M+ Season 1"
 				or n == "Voidspire Citadel" or n == "Voidspire Citadel (Normal/Heroic)"
 				or n == "March on Quel'Danas" or n == "March on Quel'Danas (Normal/Heroic)"
-				or n == "The Dreamrift" or n == "The Dreamrift (Normal/Heroic)" then
+				or n == "The Dreamrift" or n == "The Dreamrift (Normal/Heroic)"
+				or n == "M+ Season 2" or n == "The Venomous Abyss (Normal/Heroic)"
+				or n == "The Tidebound Grotto (Normal/Heroic)" then
 				db.collections[id] = nil
 			end
 		end
@@ -138,6 +146,9 @@ SlashCmdList["CUSTOMBOSSALERTS"] = function(msg)
 		if ns.SeedVoidspireRaid then ns:SeedVoidspireRaid() end
 		if ns.SeedQuelDanasRaid then ns:SeedQuelDanasRaid() end
 		if ns.SeedDreamriftRaid then ns:SeedDreamriftRaid() end
+		if ns.SeedMPlusSeason2 then ns:SeedMPlusSeason2() end
+		if ns.SeedVenomousAbyssRaid then ns:SeedVenomousAbyssRaid() end
+		if ns.SeedTideboundGrottoRaid then ns:SeedTideboundGrottoRaid() end
 		local count = 0
 		for _ in pairs(db.trackedAbilities) do count = count + 1 end
 		print("|cff00ccffCustomBossAlerts|r: Re-seeded all default collections (" .. count .. " abilities). |cff00ccff/reload|r to refresh the UI.")

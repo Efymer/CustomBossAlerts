@@ -1,9 +1,11 @@
 # Changelog
 
-## v1.0.2
+## v1.1.0
 
-- Update for World of Warcraft 12.1.0 — v1.0.2
-- Fix an error when clicking outside a collection's right-click menu — v1.0.2
+- Update for World of Warcraft 12.1.0 and Midnight Season 2 — v1.1.0
+- New ready-made collections: Mythic+ Season 2 (all 8 dungeons), The Venomous Abyss (all 8 bosses) and The Tidebound Grotto — v1.1.0
+- Existing players get the new collections automatically on login; your Season 1 collections are kept — v1.1.0
+- Fix an error when clicking outside a collection's right-click menu — v1.1.0
 
 ## v1.0.1
 

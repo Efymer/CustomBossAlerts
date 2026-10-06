@@ -2,7 +2,7 @@
 ## Title: CustomBossAlerts
 ## Notes: Select boss abilities from the Encounter Journal and get custom alerts when they're cast. Requires BigWigs or DBM.
 ## Author: Efymer
-## Version: 1.0.2
+## Version: 1.1.0
 ## SavedVariables: CustomBossAlertsDB
 ## IconTexture: Interface\Icons\Spell_Shadow_Charm
 ## Category: Other
@@ -28,6 +28,7 @@ UIHelpers.lua
 Settings.lua
 Collections.lua
 DefaultCollections.lua
+DefaultCollections_Season2.lua
 Picker.lua
 IconBrowser.lua
 ImportExport.lua

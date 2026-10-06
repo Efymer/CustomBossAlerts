@@ -13,6 +13,9 @@ Open the config with `/cba`, browse raids and dungeons from the Encounter Journa
 
 ### Pre-Built Collections
 Ships with curated alert sets for all current content:
+- **Mythic+ Season 2** — all 8 dungeons (Altar of Fangs, Den of Nalorakk, Murder Row, The Blinding Vale, Voidscar Arena, Kings' Rest, Ruby Life Pools, Temple of Sethraliss)
+- **The Venomous Abyss** — all 8 bosses
+- **The Tidebound Grotto** — Nymrissa Wavecaller
 - **Mythic+ Season 1** — all 8 dungeons with action callouts (DODGE, SOAK, TANK CD, KICK, etc.)
 - **Voidspire Citadel** — all 6 bosses
 - **March on Quel'Danas** — both bosses
